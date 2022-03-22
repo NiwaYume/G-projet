@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="asset/style.css">
+<!--===============================================================================================-->
+</head>
+<header>
+	<img class="logo" src="image/gprojectBLANC.png">
+	<nav>
+		<li class="active"><a href="">Liste des évènements</a></li>
+		<li><a href="">Ajouter un évènements</a></li>
+		<li><a href="">Nous contacter</a></li>
+		<li><a href="">Sponsors</a></li>
+		<li><a href="">A propos</a></li>
+		<li><a href="">FAQ</a></li>
+		<li><a href="">Connexion/Inscription</a></li>
+	</nav>
+</header>
+<body class="subscribe">
+		<div class="container-contact3">
+			<div class="wrap-contact3">
+				<form class="contact3-form validate-form">
+					<span class="contact3-form-title">
+						Nous contacter
+					</span>
+
+					<div class="wrap-contact3-form-radio">
+						<div class="contact3-form-radio m-r-42">
+							<input class="input-radio3" id="radio1" type="radio" name="choice" value="Particuliers" checked="checked">
+							<label class="label-radio3" for="radio1">
+								Particuliers
+							</label>
+						</div>
+
+						<div class="contact3-form-radio">
+							<input class="input-radio3" id="radio2" type="radio" name="choice" value="organistation/associtations">
+							<label class="label-radio3" for="radio2">
+								Organistations
+							</label>
+						</div>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate="Name is required">
+						<input class="input3" type="text" name="name" placeholder="Nom">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input3" type="text" name="email" placeholder="Votre Email">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 input3-select">
+						<div>
+							<select class="selection-2" name="service">
+								<option>options 1</option>
+								<option>options 2</option>
+								<option>options 3</option>
+								<option>options 4</option>
+							</select>
+						</div>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 input3-select">
+						<div>
+							<select class="selection-2" name="budget">
+								<option>options 1</option>
+								<option>options 2</option>
+								<option>options 3</option>
+								<option>options 4</option>
+							</select>
+						</div>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate = "Message is required">
+						<textarea class="input3" name="message" placeholder="Votre message"></textarea>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
+							Envoyer
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+<footer class="container">
+	<ul class="linear-list">
+		<li>
+			<a href="">Code of Conduct</a>
+		</li>
+		<li>
+			<a href="">Terms</a>
+		</li>
+		<li>
+			<a href="">Privacy</a>
+		</li>
+		<li>
+			<a href="">Évenement sponsorisé</a>
+		</li>
+		<li>
+			<a href="">contact@g-projet.com</a>
+		</li>
+	</ul>
+</footer>
+</html>
