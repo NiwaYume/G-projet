@@ -1,1 +1,1 @@
-# G-projet unjour on le finir si possible avant été 2022
+# G-projet un jour on le finira et si possible avant l'été 2022
